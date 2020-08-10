@@ -1,0 +1,280 @@
+name: EssentialsTiengViet
+<<<<<<< HEAD
+version: 0.1
+=======
+version: 0.5
+>>>>>>> 06ae6d4... v0.5 BETA
+main: Chinh.EssentialsTiengViet
+description: "Plugin được lấy cảm hứng từ EssentialsX của md678685"
+author: [KnightHat]
+commands:
+  estv:
+    description: "Câu lệnh chính"
+    usage: /estv [lệnh]
+    permissions:
+      - estv.*
+      - estv.admin
+<<<<<<< HEAD
+      - estv.admin.reload
+=======
+      - estv.admin.*
+      - estv.admin.reload      
+>>>>>>> 06ae6d4... v0.5 BETA
+    aliases:
+      - estiengviet
+  bietdanh:
+    description: "Đổi tên"
+    usage: /bietdanh [tên mới]
+    permissions:
+      - estv.*
+      - estv.doiten
+    aliases:
+      - doiten
+      - bietdanh
+      - nick
+      - nickname
+  i:
+    description: "Lấy vật phẩm"
+    usage: /i [vật phẩm] [số lượng] [độ bền]
+    permissions:
+      - estv.*
+      - estv.layvatpham
+    aliases:
+      - getitem
+      - item
+      - layvatpham
+      - layitem
+      - vp
+  bay:
+    description: "Bật/tắt chế độ bay"
+    usage: /bay [người chơi]
+    permissions:
+      - estv.*
+      - estv.bay
+<<<<<<< HEAD
+=======
+      - estv.bay.nguoikhac
+>>>>>>> 06ae6d4... v0.5 BETA
+    aliases:
+      - fly
+  gm:
+    description: "Đổi chế độ chơi"
+    usage: /gm [chế độ] [người chơi]
+    permissions:
+      - estv.*
+      - estv.gamemode
+      - estv.gamemode.nguoikhac
+  sinhton:
+    description: "Đổi chế độ chơi"
+    usage: /sinhton [người chơi]
+    permissions:
+      - estv.*
+      - estv.gamemode
+      - estv.gamemode.nguoikhac
+    aliases:
+      - gms
+      - gm0
+      - survival 
+  sangtao:
+    description: "Đổi chế độ chơi"
+    usage: /sangtao [người chơi]
+    permissions:
+      - estv.*
+      - estv.gamemode
+      - estv.gamemode.nguoikhac
+    aliases:
+      - gmc
+      - gm1
+      - creative 
+  khampha:
+    description: "Đổi chế độ chơi"
+    usage: /khampha [người chơi]
+    permissions:
+      - estv.*
+      - estv.gamemode
+      - estv.gamemode.nguoikhac
+    aliases:
+      - gma
+      - gm3
+      - adventure 
+  khangia:
+    description: "Đổi chế độ chơi"
+    usage: /khangia [người chơi]
+    permissions:
+      - estv.*
+      - estv.gamemode
+      - estv.gamemode.nguoikhac
+    aliases:
+      - gmsp
+      - gm3
+      - spectator 
+  nang:
+    description: "Đổi thời tiết"
+    usage: /nang
+    permissions:
+      - estv.*
+      - estv.thoitiet
+    aliases:
+      - tronglanh
+      - sun
+      - sunny 
+  mua:
+    description: "Đổi thời tiết"
+    usage: /mua
+    permissions:
+      - estv.*
+      - estv.thoitiet
+    aliases:
+      - rain
+      - rainy
+      - thunder
+      - samchop
+      - bao 
+  sang:
+    description: "Đổi thời gian"
+    usage: /sang
+    permissions:
+      - estv.*
+      - estv.thoigian
+    aliases:
+      - day
+  trua:
+    description: "Đổi thời gian"
+    usage: /trua
+    permissions:
+      - estv.*
+      - estv.thoigian
+    aliases:
+      - noon
+      - midday
+  chieu:
+    description: "Đổi thời gian"
+    usage: /sang
+    permissions:
+      - estv.*
+      - estv.thoigian
+    aliases:
+      - afternoon
+  toi:
+    description: "Đổi thời gian"
+    usage: /sang
+    permissions:
+      - estv.*
+      - estv.thoigian
+    aliases:
+      - khuya
+      - night
+      - midnight
+  thongbao:
+    description: "Phát thông báo cho toàn bộ người chơi đang online"
+    usage: /thongbao [tin nhắn]
+    permissions:
+      - estv.*
+      - estv.thongbao
+    aliases:
+      - broadcast
+      - loalon
+  tinnhan:
+    description: "Gửi tin nhắn cho người chơi"
+    usage: /tinnhan [người chơi] [tin nhắn]
+    permissions:
+      - estv.*
+      - estv.msg
+    aliases:
+      - msg
+      - gui
+      - message
+<<<<<<< HEAD
+  suachua:
+    description: "Sửa chữa vật phẩm"
+    usage: /suachua [trentay/tatca]
+    permissions:
+      - estv.*
+      - estv.suachua
+    aliases:
+      - repair
+=======
+  tenthat:
+    description: "Xem tên đăng nhập của người chơi"
+    usage: /tenthat [người chơi]
+    permissions:
+      - estv.*
+      - estv.tenthat
+    aliases:   
+      - ten
+      - realname
+      - real
+  thongtin:
+    description: "Xem thông tin người chơi"
+    usage: /thongtin [người chơi]
+    permissions:
+      - estv.*
+      - estv.thongtin
+    aliases:
+      - info
+      - information
+      - in4
+  datkhuvuc:
+    description: "Đặt khu vực"
+    usage: /datkhuvuc [tên khu vực]
+    permissions:
+      - estv.*
+      - estv.khuvuc.tao
+    aliases:
+      - datwarp
+      - setwarp
+      - taokhuvuc
+  xoakhuvuc:
+    description: "Xóa khu vực"
+    usage: /xoa [tên khu vực]
+    permissions:
+      - estv.*
+      - estv.khuvuc.xoa
+    aliases:
+      - delwarp
+      - xoawarp
+  khuvuc:
+    description: "Dịch chuyển đến khu vực"
+    usage: /khuvuc [tên khu vực]
+    permissions:
+      - estv.*
+      - estv.khuvuc.*
+    aliases:
+      - warp
+  cackhuvuc:
+    description: "Xem các khu vực"
+    usage: /cackhuvuc
+    permissions:
+      - estv.*
+      - estv.khuvuc
+      - estv.khuvuc.bypass
+    aliases:
+      - warps
+  hoimau:
+    description: "Hồi máu và thức ăn"
+    usage: /hoimau [người chơi]
+    permissions:
+      - estv.*
+      - estv.hoimau
+    aliases:
+      - heal
+      - hoiphuc
+  tieudiet:
+    description: "Tự tử hoặc tiêu diệt người chơi!"
+    usage: /tieudiet [người chơi]
+    permissions:
+      - estv.*
+      - estv.tieudiet
+    aliases:
+      - kill
+      - giet
+  xoatui:
+    description: "Loại bỏ tất cả đồ trong túi"
+    usage: /xoatui [người chơi]
+    permissions:
+      - estv.*
+      - estv.xoatui
+    aliases:
+      - clear
+      - dontui
+>>>>>>> 06ae6d4... v0.5 BETA

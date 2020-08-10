@@ -1,0 +1,64 @@
+#Phần chữ đứng đằng trước mỗi câu tin nhắn hoặc thông báo của plugin
+#Có thể tùy chỉnh không giới hạn. Nếu không muốn thì hãy để ""
+#Mặc định: TienTo: "&f[&6&lEs-Tiếng Việt&f] "
+TienTo: "&f[&6&lEs-&4&lTiếng Việt&f] "
+
+#Tên máy chủ của bạn.
+TenMayChu: "MinecraftServer"
+
+#Tên cho Bảng Điều Khiển (Console). Trong trường hợp lệnh từ console gửi xuống
+Console: "&9Hệ thống" 
+
+#Bảng giới thiệu mỗi khi người chơi kết nối vào máy chủ của bạn
+#Để 'true' để hiển thị và 'false' thì ngược lại
+#Bạn có thể tùy chỉnh ở trong banggioithieu.txt
+BatBangGioiThieu: true
+#Chú thích: {TEN} là tên đăng nhập của người chơi
+#{BIETDANH} là biệt danh (nickname) của người chơi
+#{SERVER} là tên của máy chủ, có thể điều chỉnh ở trên
+#{ONLINE} là số người đang chơi, {MAX} là số người tối đa có thể tham gia.
+#Nếu biệt danh của người chơi có màu thì việc đặt màu sẽ vô nghĩa!
+
+#Cho phép bạn tùy chỉnh cách sắp xếp thứ tự dòng chat và tên người chơi.
+#{TEN} là tên đăng nhập của người chơi
+#{BIETDANH} là biệt danh người chơi đã đổi trong quá trình chơi
+#{DOANCHAT} là tin nhắn của người chơi
+DinhDangChat: "{BIETDANH} &7&l>>&r {DOANCHAT}"
+#Bật chế độ lọc từ, nếu bật thì sẽ kiểm tra đoạn chat trước khi đăng lên
+#Đoạn chat có chứa từ cầm trong danh sách đen sẽ bị loại bỏ và gửi về
+#tin nhắn trong message.yml
+LocTuNgu:
+  Bat: false
+  DanhSachDen:
+    - "dit"
+    - "djt"
+    
+#Đặt biệt danh
+#Độ dài và ngắn phải là số (ký tự màu sẽ không được tính vào độ dài)
+#Bật thông báo sẽ gửi tin nhắn tới toàn bộ người chơi có mặt trong máy chủ
+#{TENCU} là tên trước khi đổi, {TENMOI} là tên sau khi đổi.
+BietDanh:
+  ToiDa: 15
+  ToiThieu: 3
+  BatThongBao: false
+  DanhSachDen: false
+  DanhSachDen:
+    - "KnightHat"
+ 
+#Bật thêm tiền tố cho cho lệnh /thongbao. Tiền tố được đặt ở trên cùng.
+ThongBao:
+  BatTienTo: true
+  TienTo: "&e&k[&r&3&lThông báo&e&k]&r "
+<<<<<<< HEAD
+  
+=======
+  
+#Nếu bật, tất cả những câu lệnh gây dịch chuyển của EssentialsX - Tiếng Việt
+#sẽ phải bị delayed trong khoảng thời gian được ghi bên dưới (tính bằng giây).
+DichChuyen:
+  Bat: true
+  ThoiGian: 3
+  
+#Yêu cầu người chơi nhập lại lệnh để xác nhận xóa túi
+XacNhanDonTui: true
+>>>>>>> 06ae6d4... v0.5 BETA

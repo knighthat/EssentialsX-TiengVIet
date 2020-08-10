@@ -1,0 +1,4 @@
+&bChào mừng {TEN} &bđã đến với &6&l{SERVER}&b!
+&bBạn có thể dùng lệnh &e/help &bđể xem lệnh.
+&bMáy chủ hiện đang có &6{ONLINE}&b/&6{MAX} &bngười đang chơi.
+&aChúc bạn chơi game vui vẻ!

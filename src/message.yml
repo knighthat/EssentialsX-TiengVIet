@@ -1,0 +1,75 @@
+ThongBaoReload: "&aPlugin đã được tải lại thành công!"
+
+KhongQuyen: "&cBạn không có quyền thực hiện câu lệnh này!"
+
+#Một số thông báo mặc định của máy chủ sẽ được thay đổi tại đây
+#Không biết vì lý do gì nhưng cho đến thời điểm hiện tại thông báo
+#lúc đóng máy chủ chưa được đưa vào sử dụng, nên cách duy nhất để
+#chỉnh là mở tệp bukkit.yml tìm dòng "shutdown-message: Server closed"
+#và chỉnh "Server closed" lại thành Tiếng Việt, tuy nhiên phải để đấu
+#ngoặc kép trước và sau dòng chữ thì mới hoạt động bình thường
+SaiLenh: "&4&lLệnh không tồn tại! Dùng lệnh &c&l/help &4&lđể biết thêm."
+SaiPhienBan: "&3&lMáy chủ không hỗ trợ phiên bản &7&lMINECRAFT &3&lcủa bạn! Vui lòng dùng phiên bản &6&l{0}"
+MayChuDay: "&a&lMáy chủ đã đầy! Bạn vui lòng quay lại sau."
+DanhSachTrang: "&d&lBạn không nằm trong danh sách ưu tiên của server, hãy quay lại khi máy chủ tắt chức năng này."
+
+#Quy ước chung: {TEN} là tên đăng nhập của người chơi, {BIETDANH} là biệt danh (nickname)
+#mà người đã đổi trong quá trình chơi game của mình. Nếu biệt danh của người chơi có màu
+#thì việc đặt màu ở đây sẽ vô nghĩa!
+ThamGia:
+  LanDau: "&6&l{TEN} &blần đầu kết nói đến máy chủ! Mọi người hãy dành thời gian chào hỏi người mới."
+  KetNoi: "{BIETDANH} &eđã tham gia máy chủ."
+  NgatKetNoi: "{BIETDANH} &eđã rời khỏi máy chủ."
+  
+TuCam: "&cOpss! Hãy cẩn thận từ ngữ của mình."
+
+BietDanh:
+  TenQuaNgan: "&cTên bạn đặt có số lượng ký tự ít hơn số lượng cho phép."
+  TenQuaDai: "&cTên bạn đặt đã vượt quá số lượng ký tự cho phép." 
+  ThanhCong: "&dĐã đổi biệt danh từ {TENCU} &dsang tên {TENMOI}&d."
+  ThongBao: "&a&lNgười chơi {TENCU} &a&lđã đặt biệt danh mới là {TENMOI}&a&l."  
+  TenBiCam: "&cBiệt danh này không được phép sử dụng!"
+  
+KhongTonTai: "&ckhông tồn tại!"
+
+KhongOnline: "&cNgười chơi {0} &ckhông trực tuyến!"
+
+Bay: 
+  BanThan: "&dĐã &6{0} &dchế độ bay."
+  NguoiCho: "&dĐã &6{0} &dchế độ bay đối với {BIETDANH}&d."
+  NguoiNhan: "{BIETDANH} &dđã &6{0} &dchế độ bay của bạn."
+  
+CheDoChoi:
+  BanThan: "&bĐã chuyển chế độ chơi thành &a{0}&b."
+  NguoiCho: "&bChế độ chơi của {BIETDANH} &bđã được chuyền thành &a{0}}&b."
+  NguoiNhan: "&bChế độ chơi của bạn đã được chuyển thảnh &a{0} &bbởi {BIETDANH}&b."
+  
+ChuyenThoiTiet: "&6Thời tiết của thế giới &c{1} &6đã được chuyển sang &c{0}&6."
+
+ChuyenThoiGian: "&6Đặt thời gian thành &c{0} &6cho thế giới &c{1}&6."
+
+<<<<<<< HEAD
+=======
+TenThat: "&bTên thật của người chơi {BIETDANH} &blà &r{TEN}&b."
+
+KhuVuc:
+  TaoKhuVuc: "&aTạo thành công khu vực &6{0}&a."
+  XoaKhuVuc: "&cĐã xóa khu vực &6{0}&a."
+  DemNguoc: "&3Vui lòng chờ {0} giây nữa trước khi dịch chuyển."
+  DichChuyen: "&6Dịch chuyển thành công đến khu vực &c{0}&6."
+  KhongTimThay: "&cKhông tìm thấy khu vực &r{0}&c! Vui lòng nhập tên khác."
+  KhongQuyen: "&cBạn không thể dịch chuyển đến khu vực này!"
+
+HoiMau:
+  BanThan: "&6Thanh máu và thức ăn đã được phục hồi!"
+  NguoiCho: "{BIETDANH} &6đã được hồi phục!" 
+  NguoiNhan: "&6Bạn đã được hồi phục bởi người chơi {BIETDANH}&6."
+  
+TuTu: "&cTự tử thành công."
+TieuDiet: "&cNgười chơi {BIETDANH} &cđã bị tiêu diệt!"
+
+XoaTui:
+  BanThan: "&6Đã xóa toàn bộ vật phẩm trong túi"
+  NguoiGui: "{BIETDANH} &cđã mất toàn bộ đồ trong túi" 
+  NguoiNhan: "&cNgười chơi {BIETDANH} &cđã xóa túi của bạn" 
+>>>>>>> 06ae6d4... v0.5 BETA
